@@ -63,8 +63,8 @@ const Chat = () => {
                 <img
                   src={
                     message.senderId === authUser._id
-                      ? authUser.profilePic || "/avatar.png"
-                      : selectedUser.profilePic || "/avatar.png"
+                      ? authUser.profilePic || "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxDUlYIYGQNcRZeu8TBUQXArPjglxW9vlf3A&s"
+                      : selectedUser.profilePic || "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxDUlYIYGQNcRZeu8TBUQXArPjglxW9vlf3A&s"
                   }
                   alt="profile pic"
                 />
